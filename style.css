@@ -1,0 +1,156 @@
+.hidden {
+  display: none;
+}
+* {
+  list-style: none;
+}
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(188, 202, 238);
+  font-family: "Roboto", sans-serif;
+}
+#metadata {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+  justify-content: space-around;
+}
+#loginBox {
+  background-color: rgb(93, 147, 247);
+  width: 473px;
+  height: 153px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  box-shadow: inset 3px 3px 3px rgb(95, 93, 93);
+}
+#login-form p {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.loginSet {
+  text-align: center;
+}
+.loginSet input {
+  font-size: 20px;
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid rgb(56, 52, 52);
+  text-align: center;
+}
+.loginSet input:focus {
+  outline: none;
+}
+.loginSet button {
+  border: grey;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: blanchedalmond;
+  box-shadow: 3px 3px 3px rgb(126, 121, 121);
+}
+.loginSet button:hover {
+  cursor: pointer;
+}
+#greeting {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(37, 39, 41);
+}
+#calendar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(93, 147, 247);
+  width: 473px;
+  height: 153px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  box-shadow: inset 3px 3px 3px rgb(95, 93, 93);
+}
+
+#calendar p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: aliceblue;
+}
+#day,
+#date,
+#year,
+#month {
+  font-size: 25px;
+  background-color: honeydew;
+  width: 80px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  box-shadow: 3px 3px 3px rgb(128, 122, 122);
+}
+#clock {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(93, 147, 247);
+  padding: 30px 15px;
+  border-radius: 15px;
+  box-shadow: inset 3px 3px 3px rgb(95, 93, 93);
+}
+#todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(93, 147, 247);
+  width: 730px;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: inset 3px 3px 3px rgb(95, 93, 93);
+  overflow: auto;
+}
+#toDoTitle {
+  font-size: 30px;
+  background-color: honeydew;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  width: 600px;
+  text-align: center;
+  box-shadow: 3px 3px 6px rgb(95, 93, 93);
+}
+#todo-form input {
+  width: 500px;
+  font-size: 25px;
+  border: none;
+  border-bottom: 2px solid rgb(56, 52, 52);
+  background-color: transparent;
+  text-align: center;
+}
+#todo-form input:focus {
+  outline: none;
+}
+#todo-list li {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+#todo-list button {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+}
+#todo-list button:hover {
+  cursor: pointer;
+}
+#todo-list .line {
+  text-decoration: line-through;
+}

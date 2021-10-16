@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <title>My To Do List</title>
+</head>
+<body>
+    <div id="metadata">
+        <div id="loginBox">
+            <form id="login-form" class="hidden">
+                <p>What is Your Name?</p>
+                <div class="loginSet">
+                    <input type="text" required maxlength="10">
+                    <button>Log In</button>
+                </div>
+            </form>
+            <div id="greeting" class="hidden"></div>
+        </div>
+        <div id="calendar">
+            <div class="dayBox">
+                <p>Day</p>
+                <span id="day"></span>
+            </div>
+            <div class="monthBox">
+                <p>Month</p>
+                <span id="month"></span>
+            </div>
+            <div class="dateBox">
+                <p>Date</p>
+                <span id="date"></span>
+            </div>
+            <div class="yearBox">
+                <p>Year</p>
+                <span id="year"></span>
+            </div>
+        </div>
+        <div id="clock">
+        </div>
+    </div>
+    <div id="todo">
+        <div id="toDoTitle">To Do List🤩</div>
+        <form id="todo-form">
+            <input type="text" placeholder="Write Your ToDo and Press Enter">
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="clock.js"></script>
+    <script src="login.js"></script>
+    <script src="todo.js"></script>
+</body>
+</html>
